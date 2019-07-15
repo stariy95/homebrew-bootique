@@ -1,4 +1,4 @@
-class Bootique < Formula
+class Bq < Formula
   desc "Bootique CLI tools"
   homepage "https://bootique.io"
   url "https://github.com/bootique-tools/bq/releases/download/0.1/bq-0.1.zip"
