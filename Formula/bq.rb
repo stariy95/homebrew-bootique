@@ -7,8 +7,6 @@ class Bq < Formula
   bottle :unneeded
 
   def install
-    chmod 0755, "bin/bq"
-
     libexec.install Dir["*"]
     bin.install_symlink libexec/"bin/bq"
   end
